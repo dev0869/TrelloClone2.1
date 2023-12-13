@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Button from "@/components/ui/Button";
 const Home = () => {
   return (
     <div className="flex justify-center h-screen">
@@ -24,9 +25,9 @@ const Home = () => {
           high rises to the home office, the way your team works is unique -
           accomplish it all with Taskify.
         </div>
-        <button className="mt-6">
+        <Button >
           <Link href="/sign-up">Get Taskify for free</Link>
-        </button>
+        </Button>
       </div>
     </div>
   );
