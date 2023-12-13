@@ -6,7 +6,7 @@ export default function ClerkLayout({
 }) {
   return (
 
-        <div className="flex justify-center h-screen items-center">{children}</div>
+        <div className="">{children}</div>
     
   );
 }
